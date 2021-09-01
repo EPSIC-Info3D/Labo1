@@ -13,7 +13,7 @@ namespace Epsic.Info3e.Labo1.Tests
 
             sut.SetAge(21);
 
-            Assert.AreEqual(sut.ShowAge(), "My age is 21 years old");
+            Assert.AreEqual("I'm 21 years old", sut.ShowAge());
         }
 
         [TestMethod, TestCategory("Step1")]
@@ -21,7 +21,7 @@ namespace Epsic.Info3e.Labo1.Tests
         {
             var sut = new Student();
 
-            Assert.AreEqual(sut.Greet(), "Hello!");
+            Assert.AreEqual("Hello!", sut.Greet());
         }
 
         [TestMethod, TestCategory("Step1")]
@@ -29,7 +29,7 @@ namespace Epsic.Info3e.Labo1.Tests
         {
             var sut = new Student();
 
-            Assert.AreEqual(sut.Study(), "I'm studying");
+            Assert.AreEqual("I'm studying", sut.Study());
         }
 
         [TestMethod, TestCategory("Step1")]
@@ -37,7 +37,7 @@ namespace Epsic.Info3e.Labo1.Tests
         {
             var sut = new Teacher();
 
-            Assert.AreEqual(sut.Greet(), "Hello!");
+            Assert.AreEqual("Hello!", sut.Greet());
         }
 
         [TestMethod, TestCategory("Step1")]
@@ -45,7 +45,7 @@ namespace Epsic.Info3e.Labo1.Tests
         {
             var sut = new Teacher();
 
-            Assert.AreEqual(sut.Explain(), "I'm explaining");
+            Assert.AreEqual("I'm explaining", sut.Explain());
         }
     }
 }
