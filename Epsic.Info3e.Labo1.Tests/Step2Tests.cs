@@ -11,7 +11,7 @@
 //         {
 //             var sut = new Person("Jon");
 
-//             Assert.AreEqual(sut.ToString(), "Hello! My name is Jon");
+//             Assert.AreEqual("Hello! My name is Jon", sut.ToString());
 //         }
 
 //         [TestMethod, TestCategory("Step2")]
@@ -19,7 +19,7 @@
 //         {
 //             var sut = new Student("Eva");
 
-//             Assert.AreEqual(sut.ToString(), "Hello! My name is Eva");
+//             Assert.AreEqual("Hello! My name is Eva", sut.ToString());
 //         }
 
 //         [TestMethod, TestCategory("Step2")]
@@ -27,7 +27,7 @@
 //         {
 //             var sut = new Teacher("Adam");
 
-//             Assert.AreEqual(sut.ToString(), "Hello! My name is Adam");
+//             Assert.AreEqual("Hello! My name is Adam", sut.ToString());
 //         }
 
 //         [TestMethod, TestCategory("Step2")]
@@ -35,7 +35,7 @@
 //         {
 //             var sut = new Person("Jon");
 
-//             Assert.AreEqual(sut.GetStatus(), "Eating");
+//             Assert.AreEqual("Eating", sut.GetStatus());
 //         }
 
 //         [TestMethod, TestCategory("Step2")]
@@ -43,7 +43,7 @@
 //         {
 //             var sut = new Student("Eva");
 
-//             Assert.AreEqual(sut.GetStatus(), "Studying");
+//             Assert.AreEqual("Studying", sut.GetStatus());
 //         }
 
 //         [TestMethod, TestCategory("Step2")]
@@ -51,7 +51,7 @@
 //         {
 //             var sut = new Teacher("Adam");
 
-//             Assert.AreEqual(sut.GetStatus(), "Eating");
+//             Assert.AreEqual("Eating", sut.GetStatus());
 //         }
 //     }
 // }
