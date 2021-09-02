@@ -9,6 +9,6 @@
     <PackageReference Include="coverlet.collector" Version="3.1.0"/>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Epsic.Info3e.Labo1\Epsic.Info3e.Labo1.csproj"/>
+    <ProjectReference Include="..\Epsic.Info3Dev.Labo1\Epsic.Info3Dev.Labo1.csproj"/>
   </ItemGroup>
 </Project>

@@ -1,4 +1,4 @@
-namespace Epsic.Info3e.Labo1.Step2
+namespace Epsic.Info3Dev.Labo1.Step2
 {
     public class Person 
     {

@@ -1,6 +1,6 @@
-namespace Epsic.Info3e.Labo1.Tests
+namespace Epsic.Info3Dev.Labo1.Tests
 {
-    using Epsic.Info3e.Labo1.Step1;
+    using Epsic.Info3Dev.Labo1.Step1;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
 
     [TestClass]
